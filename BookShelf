@@ -1,0 +1,21 @@
+
+class Book:
+    def __init__(self,name,author,price,publishing_year):
+        self.book_name = name
+        self.book_author = author
+        self.book_price = price
+        self.book_publishing = publishing_year
+       
+    def add_book(self):
+        print("Name: "+self.book_name)
+        print("Author: "+str(self.book_author))
+        print("Price: "+self.book_price)
+        print("Book publishing: "+self.book_publishing)
+        print("Book Added")
+       
+       
+book1 = Book("The Amazing Spider-Man","Zeb Wells","$3.99","2018")
+book1.add_book()
+
+book2 = Book("Black Panther","John Ridley, Juni Ba","$5.99","2021")
+book2.add_book()
